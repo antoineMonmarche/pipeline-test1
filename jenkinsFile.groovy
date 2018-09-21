@@ -1,7 +1,7 @@
 pipeline{
   agent any
   libraries{
-  lib('pipeline-test1@master')
+  	lib('lib-demo1@master')
   }
   stages{
     stage('Step1'){
